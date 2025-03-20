@@ -31,7 +31,7 @@ const APKDownloader = () => {
       
       // Create an anchor element and trigger download
       const link = document.createElement('a');
-      link.href = '/api/placeholder/400/320'; // Placeholder for actual APK
+      link.href = 'D:/TechConnect/Prototype/src/downloads/app-debug.apk';
       link.download = 'SecureMessenger.apk';
       document.body.appendChild(link);
       link.click();
